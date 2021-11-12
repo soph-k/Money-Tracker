@@ -1,0 +1,29 @@
+{
+  "name": "anatomy-of-a-pwa",
+  "version": "1.0.0",
+  "description": "Details and sample code for building a Progressive Web Application",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soph-k/money-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soph-k/money-tracker/issues"
+  },
+  "homepage": "https://github.com/soph-k/money-tracker#readme"
+}
