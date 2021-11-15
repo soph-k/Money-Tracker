@@ -4,32 +4,31 @@
 
 
 <p align="center">
-    <img src="https://img.shields.io/github/repo-size/soph-k/generate_team_profile"/>
-    <img src="https://img.shields.io/github/last-commit/soph-k/generate_team_profile"/>
+    <img src="https://img.shields.io/github/repo-size/soph-k/money-tracker"/>
+    <img src="https://img.shields.io/github/last-commit/soph-k/money-tracker"/>
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/Javascript-yellow"/>
     <img src="https://img.shields.io/badge/jQuery-gray"/>
     <img src="https://img.shields.io/badge/-node.js-red"/>
-    <img src="https://img.shields.io/badge/-json-blue" />
-    <img src="https://img.shields.io/badge/-inquirer-pink"/>
+    <img src="https://img.shields.io/badge/-MongoDB-pink"/>
+    <img src="https://img.shields.io/badge/-heroku-orange"/>
 </p>
    
 
 # Description
-A simple script based on node.js using the inquirer - npm to generate 
-an HTML page that contains information of multiple team members. 
-Jest testing was used to anaylzed the functionality of the script.
+The Money Tracker is a NodeJS based application deployed on Heroku where a user is able to update their budget online or offline. The user's input will be populated into MondoDB Atlas database with a Service Worker and Manifest.
+
 
 
 ## Table of Contents
 - [Overview](#overview)
 - [Authors](#authors)
+- [Demo](#demo)
 - [Preview](#preview)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Test](#test)
 - [Contribution](#contribution)
 - [License](#license)
 - [Bugs](#bugs)
@@ -40,44 +39,27 @@ Jest testing was used to anaylzed the functionality of the script.
  - GitHub: [soph-k](https://github.com/soph-k)
 - Version 1.1
 
+## Demo
+[Heroku Deployment](https://sophk-money-tracker.herokuapp.com/)
+
 
 ## Preview
-![Preview](./assets/images/demo.gif)
+![Preview](./public/images/screenshot.png)
 
 
 ## Features
 - Javascript 
-- Node.js 
-    - Inquirer.js
-    - Jest Testing
-
+- Node.js
+- Heroku
+- Mongo DB (Atlas)
 
 
 ## Installation
-The Generate Team Profile is based on the Inquirer npm. 
-Before using commands please be sure Inquirer npm is installed. 
-If not, run the following commands in the following order: 
-
+The Money Tracker is based on the NodeJS. 
+Before using commands please be sure install the required Node packages. 
 ```
-npm init
+npm i
 ```
-```
-npm install inquirer
-```
-
-
-## Usage
-Once all of the files and Inquirer npm is set up, 
-begin generating your README.md file by using the following 
-command in the terminal of your project and answer each question.
-
-```
-node index.js
-```
-
-
-## Test
-Each aspect of the Generate Team Profile project was tested using Jest. 
 
 
 ## Contribution
@@ -94,5 +76,3 @@ For questions about this project, please review my GitHub repo at [soph-k](https
 
 #### Bugs 
 - No known bugs.
-
-
