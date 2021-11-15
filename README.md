@@ -10,9 +10,9 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Javascript-yellow"/>
     <img src="https://img.shields.io/badge/jQuery-gray"/>
-    <img src="https://img.shields.io/badge/-node.js-red"/>
+    <img src="https://img.shields.io/badge/-NodeJS-Blue"/>
     <img src="https://img.shields.io/badge/-MongoDB-pink"/>
-    <img src="https://img.shields.io/badge/-heroku-orange"/>
+    <img src="https://img.shields.io/badge/-Heroku-purple"/>
 </p>
    
 
